@@ -17,7 +17,7 @@ const Ship = () => {
     <mesh>
       <hemisphereLight intensity={4} groundColor="black" />
       <spotLight
-        ref={spotLightRef}
+        // ref={spotLightRef}
         position={[0, 40, 0]}
         rotation={[0, 0, 0]}
         angle={0.8}
@@ -34,7 +34,7 @@ const Ship = () => {
         position-x={-23}
         position-z={0}
         rotation-y={9.45}
-        rotation-x={0}
+        rotation-x={0.1}
       />
     </mesh>
   );
@@ -51,7 +51,7 @@ const ShipCanvas = () => {
         fov: 50,
         near: 0.1,
         far: 200,
-        position: [0, 0, 60],
+        position: [-60, 0, 15],
       }}
     >
       <Suspense fallback={<CanvasLoader />}>

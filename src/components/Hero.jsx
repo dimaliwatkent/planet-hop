@@ -25,7 +25,7 @@ const Hero = () => {
             Explore
           </button>
 
-          <div className="w-[500px] h-[300px] lg:absolute top-0 right-0 mx-auto relative">
+          <div className="lg:w-[600px] lg:h-[500px] h-[400px] lg:absolute bottom-0 right-0 mx-auto relative ">
             <ShipCanvas />
           </div>
         </div>
