@@ -1,5 +1,6 @@
 import React from "react";
 import { styles } from "../styles";
+import ShipCanvas from "./canvas/Ship";
 
 const Hero = () => {
   return (
@@ -23,6 +24,10 @@ const Hero = () => {
           <button className="bg-blue py-2 px-5 rounded-xl outline-none w-fit text-primary font-semibold shadow-md shadow-primary mt-10">
             Explore
           </button>
+
+          <div className="w-[500px] h-[300px] lg:absolute top-0 right-0 mx-auto relative">
+            <ShipCanvas />
+          </div>
         </div>
       </div>
     </section>

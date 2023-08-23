@@ -1,17 +1,18 @@
 import React from "react";
-import { Navbar, Hero } from "./components";
+import { Navbar, Hero, Service } from "./components";
 import StarsCanvas from "./components/canvas/Star";
 
 const App = () => {
   return (
     <div className="relative z-0 bg-primary">
-      <div className="flex">
+      <div className="relative z-0">
         <Navbar />
         <Hero />
-      </div>
-      <div>
+
         <StarsCanvas />
       </div>
+      <Service />
+      <div></div>
     </div>
   );
 };
