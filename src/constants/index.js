@@ -1,4 +1,14 @@
-import { earth_moon, earth, jupiter, mars, mercury, venus } from "../assets";
+import {
+  earth_moon,
+  earth,
+  jupiter,
+  mars,
+  mercury,
+  venus,
+  saturn,
+  neptune,
+  uranus,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -81,6 +91,7 @@ export const planets = [
       "Saturn is known for its prominent ring system made up of ice particles and dust.",
     description:
       "Saturn is the sixth planet from the Sun and is a gas giant with a yellowish hue...",
+    image: saturn,
   },
   {
     name: "Uranus",
@@ -90,6 +101,7 @@ export const planets = [
       "Uranus is the seventh planet from the Sun and is tilted on its side.",
     description:
       "Uranus is an ice giant and has a bluish-green color due to the presence of methane in its atmosphere...",
+    image: uranus,
   },
   {
     name: "Neptune",
@@ -98,5 +110,6 @@ export const planets = [
     facts: "Neptune is the eighth and farthest known planet from the Sun.",
     description:
       "Neptune is a gas giant and is known for its deep blue color and strong winds...",
+    image: neptune,
   },
 ];

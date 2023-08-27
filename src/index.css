@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .paddingX {
+    @apply sm:px-16 px-6;
+  }
+  .paddingY {
+    @apply sm:px-16 px-6;
+  }
+  .padding {
+    @apply sm:px-16 px-6 sm:py-16 py-10;
+  }
+
+  .heroHeadText {
+    @apply font-black text-orange lg:text-[50px] sm:text-[50px] xs:text-[50px] text-[40px] lg:leading-[65px] mt-2;
+  }
+  .heroSubText {
+    @apply text-[#dfd9ff] font-medium lg:text-[18px] sm:text-[26px] xs:text-[18px] text-[16px] lg:leading-[30px];
+  }
+  .sectionHeadText {
+    @apply font-black text-orange lg:text-[50px] sm:text-[50px] xs:text-[50px] text-[40px] lg:leading-[65px] mt-2;
+  }
+  .sectionSubText {
+    @apply text-[#dfd9ff] font-medium lg:text-[18px] sm:text-[26px] xs:text-[18px] text-[16px] lg:leading-[30px];
+  }
+}

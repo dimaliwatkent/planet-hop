@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Service from "./Service";
-import PlanetDescription from "./PlaneDescription";
+import PlanetDescription from "./PlanetDescription";
+import Contact from "./Contact";
 
-export { Navbar, Hero, Service, PlanetDescription };
+export { Navbar, Hero, Service, PlanetDescription, Contact };

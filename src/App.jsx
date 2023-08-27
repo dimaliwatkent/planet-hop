@@ -1,19 +1,33 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Navbar, Hero, Service, PlanetDescription } from "./components";
+import {
+  Navbar,
+  Hero,
+  Service,
+  PlanetDescription,
+  Contact,
+} from "./components";
 import StarsCanvas from "./components/canvas/Star";
 
 const App = () => {
   return (
     <div className="relative z-0 bg-primary">
       <Navbar />
-      <div className="relative z-0">
-        <Hero />
+      <StarsCanvas />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
 
-        {/* <StarsCanvas /> */}
-      </div>
-      <Service />
-      <div></div>
+              <Service />
+            </>
+          }
+        />
+        <Route path="/planet/:planetName" element={<PlanetDescription />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 };
