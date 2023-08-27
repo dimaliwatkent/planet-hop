@@ -1,3 +1,5 @@
+import { earth_moon, earth, jupiter, mars, mercury, venus } from "../assets";
+
 export const navLinks = [
   {
     id: "explore",
@@ -13,7 +15,7 @@ export const navLinks = [
   },
 ];
 
-export const planet = [
+export const planets = [
   {
     name: "Moon",
     price: 30000,
@@ -21,6 +23,7 @@ export const planet = [
     facts: "The Moon is Earth's only natural satellite.",
     description:
       "The Moon is a dusty and desolate place with a barren landscape. It has no atmosphere, which means there is no weather or air on the Moon. The surface is covered in craters, mountains, and plains called maria. Despite its desolation, the Moon has always been a source of fascination and inspiration for humanity.",
+    image: earth_moon,
   },
   {
     name: "Mercury",
@@ -29,6 +32,7 @@ export const planet = [
     facts: "Mercury is the closest planet to the Sun.",
     description:
       "Mercury is the smallest planet in the Solar System and has a rocky surface...",
+    image: mercury,
   },
   {
     name: "Venus",
@@ -38,6 +42,7 @@ export const planet = [
       "Venus is the second planet from the Sun and is known as the 'Morning Star' or 'Evening Star'.",
     description:
       "Venus is often called Earth's 'sister planet' due to its similar size and composition...",
+    image: venus,
   },
   {
     name: "Earth",
@@ -47,6 +52,7 @@ export const planet = [
       "Earth is the third planet from the Sun and is the only known planet to support life.",
     description:
       "Earth is home to a diverse range of ecosystems and is characterized by its blue oceans and green landscapes...",
+    image: earth,
   },
   {
     name: "Mars",
@@ -55,6 +61,7 @@ export const planet = [
     facts: "Mars is often called the Red Planet due to its reddish appearance.",
     description:
       "Mars is the fourth planet from the Sun and is known for its dusty, desert-like surface...",
+    image: mars,
   },
   {
     name: "Jupiter",
@@ -64,6 +71,7 @@ export const planet = [
       "Jupiter is the largest planet in the Solar System and has a strong magnetic field.",
     description:
       "Jupiter is a gas giant and is known for its colorful bands of clouds and its Great Red Spot...",
+    image: jupiter,
   },
   {
     name: "Saturn",

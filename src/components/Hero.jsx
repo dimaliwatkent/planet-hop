@@ -26,7 +26,7 @@ const Hero = () => {
           </button>
 
           <div className="lg:w-[600px] lg:h-[500px] h-[400px] lg:absolute bottom-0 right-0 mx-auto relative ">
-            <ShipCanvas />
+            {/* <ShipCanvas /> */}
           </div>
         </div>
       </div>
