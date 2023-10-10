@@ -27,7 +27,7 @@ const App = () => {
             </>
           }
         />
-        <Route path="/planet/:planetName" element={<PlanetDescription />} />
+        <Route path="/:planetName" element={<PlanetDescription />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/explore" element={<Explore />} />
         <Route path="/gallery" element={<Gallery />} />
