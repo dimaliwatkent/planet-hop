@@ -37,8 +37,8 @@ const Contact = () => {
   };
 
   return (
-    <div className={`flex flex-col-reverse gap-10 overflow-hidden mt-24`}>
-      <div className="mx-auto">
+    <div className={`flex flex-col-reverse gap-10 overflow-hidden pt-24 pb-20`}>
+      <div className="paddingX mx-auto max-w-7xl ">
         <h3 className="sectionHeadText">Contact Us</h3>
         {/* <p className={styles.serviceSubText}>Get in touch</p> */}
 

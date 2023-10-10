@@ -6,6 +6,8 @@ import {
   Service,
   PlanetDescription,
   Contact,
+  Explore,
+  Gallery,
 } from "./components";
 import StarsCanvas from "./components/canvas/Star";
 
@@ -27,6 +29,8 @@ const App = () => {
         />
         <Route path="/planet/:planetName" element={<PlanetDescription />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/explore" element={<Explore />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </div>
   );

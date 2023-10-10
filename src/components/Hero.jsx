@@ -11,7 +11,7 @@ const Hero = () => {
           </h1>
 
           <p className="heroSubText mt-2">
-            Ready for an adventure that defies all limits?{" "}
+            Ready for an adventure that defies all limits?
             <br className="sm:block hidden" />
             Look no further than Planet Hop, the interstellar transportation
             <br className="sm:block hidden" />

@@ -13,7 +13,7 @@ const PlanetCard = ({
 }) => {
   return (
     <Link to={`/planet/${name}`}>
-      <div className="max-w-[325px] border-2 p-3 rounded-xl ">
+      <div className="max-w-[325px] border-2 p-3 rounded-xl hover:border-orange ">
         <div className="relative w-full h-[230px]">
           <img
             src={image}
