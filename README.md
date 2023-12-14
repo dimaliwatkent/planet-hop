@@ -10,7 +10,7 @@
 
 ## Features
 
-If your project has a lot of features, list them here.
+- Interactive 3D Spaceship
 
 ## Built with
 
