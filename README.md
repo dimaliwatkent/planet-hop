@@ -2,7 +2,7 @@
 
 ## Links
 
-- Live Site URL: [Planet Hop](https://dimaliwatkent.github.io/planet-hop)
+- Live Site URL: [Planet Hop](https://planet-hop-b1380.web.app)
 
 ## Description
 
